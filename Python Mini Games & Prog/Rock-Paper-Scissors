@@ -13,3 +13,6 @@ while running :
     print("  ")
     user = None
     computer = random.choice(options)
+
+    while user not in options :
+        user = input("Your choice (Rock(🗿) Paper(📄) Scissors(✂️)):")
