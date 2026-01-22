@@ -4,3 +4,6 @@ import random
 print("Welcome to the Rock(🗿) Paper(📄) Scissors(✂️) Game!!!!")
 print("📀♬₊.💿˚.★🎧⋆☾⋆⁺₊🎸⋆˚࿔♫⋆˚🎤｡˚.★💿࿔♡⋆˚📀")
 print("  ")
+
+options = ["Rock" , "Paper" , "Scissors"]
+running = True
