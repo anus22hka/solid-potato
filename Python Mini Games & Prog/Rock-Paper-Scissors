@@ -7,3 +7,9 @@ print("  ")
 
 options = ["Rock" , "Paper" , "Scissors"]
 running = True
+
+while running :
+
+    print("  ")
+    user = None
+    computer = random.choice(options)
