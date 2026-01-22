@@ -30,3 +30,18 @@ while running :
         print("📄")
     elif computer == "Scissors" :
         print("✂️")
+
+    if user == computer :
+        print("It's a TIE 🌻")
+    elif user == "Rock" and computer == "Paper" :
+        print("YOU LOST ❌")
+    elif user == "Rock" and computer == "Scissors" :
+        print("YOU WON 💛")
+    elif user == "Paper" and computer == "Scissors" :
+        print("YOU LOST ❌")
+    elif user == "Paper" and computer == "Rock" :
+        print("YOU WON 💛")
+    elif user == "Scissors" and computer == "Rock" :
+        print("YOU LOST ❌")
+    elif user == "Scissors" and computer == "Paper":
+        print("YOU WON 💛")
