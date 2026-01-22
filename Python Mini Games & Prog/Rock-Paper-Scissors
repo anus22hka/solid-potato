@@ -49,3 +49,7 @@ while running :
     play_again = input("Do you want to play again? (Y/N):").lower()
     if play_again != "y" :
         running = False
+
+print("Thank you for Playing ˚˖𓍢🌷✧˚.🎀⋆")
+print("YAAAYYYYYY!!!!!!")
+print("ﾒ૦ﾒ૦💋 from Anushka")
