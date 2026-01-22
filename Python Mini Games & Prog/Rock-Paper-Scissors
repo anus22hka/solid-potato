@@ -45,3 +45,7 @@ while running :
         print("YOU LOST ❌")
     elif user == "Scissors" and computer == "Paper":
         print("YOU WON 💛")
+
+    play_again = input("Do you want to play again? (Y/N):").lower()
+    if play_again != "y" :
+        running = False
