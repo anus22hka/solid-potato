@@ -23,3 +23,10 @@ while running :
         print("📄")
     elif user == "Scissors" :
         print("✂️")
+
+    if computer == "Rock" :
+        print("🗿")
+    elif computer == "Paper" :
+        print("📄")
+    elif computer == "Scissors" :
+        print("✂️")
