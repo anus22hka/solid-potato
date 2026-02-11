@@ -20,8 +20,8 @@ Each project is structured clearly and organized in its own folder for easy acce
 
 ## 🛠️ Technologies Used
 
-* **HTML5** – Semantic and structured markup
-* **CSS3** – Styling, layouts, and responsiveness
+* **HTML** – Semantic and structured markup
+* **CSS** – Styling, layouts, and responsiveness
 * **JavaScript (ES6+)** – Interactivity and functionality
 
 ---
