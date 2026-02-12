@@ -18,3 +18,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const emptyarray=Array(width * width - BombAmount).fill('valid')
     const gamearray=emptyarray.concat(Bombarray)
     const shuffledarray=gamearray.sort(() => Math.random() - 0.5)
+
+       for(let i=0; i<width*width; i++){
+        const square = document.createElement('div')
+        square.id=i
+        square.classList.add(shuffledarray[i])
+        grid.appendChild(square)
+        squares.push(square)
+
+        square.addEventListener('click', function(){
+            click(square)
+
+        })
+
+        square.addEventListener('contextmenu', function(){
+            addFlag(square)
+
+        })
+        
+    }
