@@ -9,3 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
     let isGameOver = false
 
   console.log(grid);
+
+    //board
+   function creatBoard(){
+    flagsleft.innerHTML= BombAmount
+
+    const Bombarray=Array(BombAmount).fill('bomb')
+    const emptyarray=Array(width * width - BombAmount).fill('valid')
+    const gamearray=emptyarray.concat(Bombarray)
+    const shuffledarray=gamearray.sort(() => Math.random() - 0.5)
