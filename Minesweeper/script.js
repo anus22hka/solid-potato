@@ -7,3 +7,5 @@ document.addEventListener('DOMContentLoaded', function() {
     let flags=0
     let squares=[]
     let isGameOver = false
+
+  console.log(grid);
