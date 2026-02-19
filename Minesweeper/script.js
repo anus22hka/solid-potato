@@ -121,3 +121,64 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
    }
+
+                              function checkSquare(square) {
+        const currentid = square.id
+        const isLeftEdge=(square.id % width === 0)
+        const isRightEdge=(square.id % width === width - 1)
+
+        setTimeout(function(){ 
+            if(currentid > 0 && !isLeftEdge) {
+                const newId= squares[parseInt(currentid) - 1].id
+                const newSquare = document.getElementById(newId)
+                click(newSquare)
+            }
+
+             if(currentid > 9 && !isRightEdge) {
+                const newId= squares[parseInt(currentid) + 1 - width].id
+                const newSquare = document.getElementById(newId)
+                click(newSquare)
+            }
+
+             if(currentid > 10 ) {
+                const newId= squares[parseInt(currentid) - width].id
+                const newSquare = document.getElementById(newId)
+                click(newSquare)
+            }
+
+
+             if(currentid > 11 && !isLeftEdge) {
+                const newId= squares[parseInt(currentid) - 1 - width].id
+                const newSquare = document.getElementById(newId)
+                click(newSquare)
+            }
+
+             if(currentid < 98 && !isRightEdge) {
+                const newId= squares[parseInt(currentid) + 1].id
+                const newSquare = document.getElementById(newId)
+                click(newSquare)
+            }
+
+             if(currentid < 90 && !isLeftEdge) {
+                const newId= squares[parseInt(currentid) - 1 + width].id
+                const newSquare = document.getElementById(newId)
+                click(newSquare)
+            }
+
+             if(currentid < 88 && !isRighttEdge) {
+                const newId= squares[parseInt(currentid) + 1 + width].id
+                const newSquare = document.getElementById(newId)
+                click(newSquare)
+            }
+
+             if(currentid < 89) {
+                const newId= squares[parseInt(currentid) + width].id
+                const newSquare = document.getElementById(newId)
+                click(newSquare)
+            }
+
+         }, 10)
+
+        
+    
+    }
