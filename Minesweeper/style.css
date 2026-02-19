@@ -14,3 +14,15 @@ button{
   width: 400px;
   align-items: center;
 }
+
+.grid{
+  height: 400px;
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+   flex-wrap: wrap;
+  background-color: #dcd6bc;
+  border: 10px solid #dcd6bc;
+}
