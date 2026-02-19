@@ -182,3 +182,23 @@ document.addEventListener('DOMContentLoaded', function() {
         
     
     }
+
+{ 
+    function gameOver() {
+        result.innerHTML = 'GAME-OVER! 😞'
+        isGameOver = true
+
+        squares.forEach(function(square) {
+            if(square.classList.contains('bomb')) {
+                square.innerHTML = '💣'
+                square.classList.remove('bomb')
+                square.classList.add('checked')
+
+            }
+
+        })
+    
+    }
+}
+
+})
