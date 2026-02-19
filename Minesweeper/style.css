@@ -9,3 +9,8 @@ body{
 button{
   color: pink;
 }
+
+.container{
+  width: 400px;
+  align-items: center;
+}
