@@ -105,3 +105,19 @@ document.addEventListener('DOMContentLoaded', function() {
     square.classList.add('checked')
         
    }
+
+   function  checkForWin() {
+    let matches = 0
+
+    for (let i = 0; i < squares.length; i++) {
+        if (squares[i].classList.contains('flag') && squares[i].classList.contains('bomb')) {
+            matches++
+        }
+
+        if(matches === BombAmount){
+            result.innerHTML = 'YOU WONN!! 😊'
+            isGameOver = true
+
+        }
+    }
+   }
