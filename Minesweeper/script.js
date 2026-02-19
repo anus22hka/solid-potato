@@ -57,3 +57,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
     }
+  
+   }
+   creatBoard()
+
+   function addFlag(square) {
+    if(isGameOver) return
+    if(!square.classList.contains('checked') && (flags < BombAmount)) {
+        if(!square.classList.contains('flag')) {
+            square.classList.add('flag')
+            flags++
+            square.innerHTML = '🚩'
+            flagsleft.innerHTML = BombAmount - flags
+            checkForWin()
+        }
+
+        else{
+            square.classList.remove('flag')
+            flags--
+            square.innerHTML = ''
+            flagsleft.innerHTML = BombAmount - flags       
+        }
+    }
+   }
