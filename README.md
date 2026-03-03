@@ -31,7 +31,7 @@ Each project is structured clearly and organized in its own folder for easy acce
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/solid-potato.git
+   git clone https://github.com/anus22hka/solid-potato.git
    ```
 
 2. Open any project folder.
