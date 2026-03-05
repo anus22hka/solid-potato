@@ -34,7 +34,6 @@ Examples include:
 * Code Screenshot Generator
 * Random Color Palette Generator
 
----
 
 ### 🌐 Web Experiments
 
@@ -42,7 +41,6 @@ Frontend experiments focused on interaction, animation, and UI concepts.
 
 * Password Strength Visualizer
 
----
 
 ### 🤖 Machine Learning
 
@@ -52,7 +50,6 @@ Examples include:
 
 * Emoji Classifier
 
----
 
 ### 🎮 Creative & Algorithmic Experiments
 
@@ -84,7 +81,7 @@ Most projects are intentionally small and may only demonstrate **one specific co
 
 2. Open any project folder.
 
-3. Run the `index.html` file in your browser.
+3. Run the file in your Editor.
 
 ---
 
