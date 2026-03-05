@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Solid Potato Banner" width="100%">
+</p>
+
 # 🥔 Solid Potato
 
 A curated collection of small experiments, mini-projects, and coding explorations built while learning new tools, frameworks, and concepts.
